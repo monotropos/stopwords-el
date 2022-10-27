@@ -1,3 +1,7 @@
+count: stopwords-el.txt
+	wc -wl stopwords-el.txt
+
+
 clear: *
 	sort < stopwords-el.txt | uniq > stopwords-el-new.txt
 	ls -l stopwords-el*.txt
